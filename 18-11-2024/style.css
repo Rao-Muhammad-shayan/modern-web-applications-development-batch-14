@@ -1,0 +1,28 @@
+@import url('./index.css');
+
+body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+
+.whatsapp {
+    position: absolute;
+    right: 40rem;
+    bottom: 40px;
+    cursor: pointer;
+}

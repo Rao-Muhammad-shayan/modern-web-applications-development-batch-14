@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+@import url(variables.css);
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-left {
+    width: 50%;
+    height: 100%;
+    background: rgb(230, 237, 182);
+    background: linear-gradient(90deg, rgba(230, 237, 182, 1) 25%, rgba(147, 218, 244, 1) 69%, rgba(150, 175, 248, 1) 83%, rgba(186, 183, 247, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.section-left>div {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-left>div>.header {
+    flex: 10;
+    display: flex;
+}
+
+.section-left>div>.header>.logo {
+    width: 100px;
+}
+
+
+.section-left>div>.details {
+    flex: 90;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.section-right {
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/images/bg.jpg);
+}
+
+.details>.heading {
+    font-size: 28px;
+    font-family: "Roboto-Bold"
+}
+
+.details>.description {
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #9A9EA5;
+}
+
+.details>.button>a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.details>.button {
+    background-color: var(--primary);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.details>.button {
+    cursor: pointer;
+}
+
+.details>.button:hover {
+    background-color: #73f7df;
+}
+
+.details>.button:active {
+    opacity: 0.5;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .section-left {
+        width: 100%;
+        height: 60%;
+    }
+
+    .section-left>div {
+        width: 95%;
+    }
+
+    .section-right {
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat
+    }
+
+    .section-left>div>.details {
+        gap: 10px;
+        flex: 80;
+    }
+
+    .section-left>div>.header {
+        flex: 20;
+    }
+}

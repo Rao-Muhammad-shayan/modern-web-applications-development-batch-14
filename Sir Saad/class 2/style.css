@@ -1,0 +1,99 @@
+/* fieldset {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+
+label {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+
+#pass{
+    background-image: url('https://w7.pngwing.com/pngs/975/821/png-transparent-password-manager-computer-icons-password-strength-password-safe-chang-miscellaneous-password-strength-password-safe-thumbnail.png');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 15px;
+    background-position-x: 1px;
+} */
+
+
+
+
+
+body {
+    background-color: bisque;
+}
+
+
+.white {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    /* margin: 10px; */
+
+}
+
+.black {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    /* margin: 10px; */
+}
+
+
+img {
+/* 
+    position: absolute;
+    top: 10px;
+    left: 780px;
+    z-index: 1; */
+    
+    
+    
+    /* position: relative; */
+    /* top: -152px; */
+    /* right: 10px; */
+}
+
+
+
+
+.abc{
+    width: 30%;
+    float: left;
+}
+
+
+.def{
+    width: 30%;
+    float: left;
+}
+
+p{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
